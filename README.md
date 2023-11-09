@@ -1,3 +1,3 @@
 # Getting Started with 
-npm i 
+npm i <br/>
 npm run dev
