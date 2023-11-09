@@ -1,0 +1,186 @@
+.flights {
+  width: 70%;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.flight {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.price {
+  width: 100%;
+  background-color: rgb(84, 84, 230);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px 0;
+}
+
+.companylabel {
+  display: flex;
+  width: 5%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4%;
+}
+
+.companyImg {
+  scale: 2
+}
+
+.companyUid {
+  padding-bottom: 8%;
+  font-weight: 600;
+}
+
+
+.priceBlock {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+
+.priceAmount {
+  margin: auto 0 auto auto;
+  color: white;
+}
+
+.descriptionPrice {
+  margin: 0 auto;
+  font-size: small;
+  color: white;
+}
+
+.direction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.fromUid {
+  color: rgb(84, 84, 230);
+}
+
+.arrow {
+  scale: 1.5;
+  position: absolute;
+  left: 49%;
+  padding-bottom: 2%;
+  color: rgb(84, 84, 230);
+}
+
+.hr {
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(194, 193, 193);
+  height: 2px;
+  width: 90%;
+}
+
+.start {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  align-items: center;
+}
+
+.time {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.total {
+  display: flex;
+  align-items: center;
+  width: 12%;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.watch {
+  scale: 1.5;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  width: 13%;
+  align-items: center;
+}
+
+.firstDate {
+  color: rgb(84, 84, 230);
+  font-size: 18px;
+
+}
+
+.secondDate {
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 1%;
+}
+
+.timeData {
+  padding-bottom: 5%;
+}
+
+.amountTransfer {
+  margin: 0;
+  width: 100%;
+}
+
+.transfer {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  color: orange;
+}
+
+.companyBlock {
+  display: flex;
+  justify-content: left;
+  padding-left: 5%;
+}
+
+.elementbutton {
+  background-color: orange;
+  width: 100%;
+  cursor: pointer;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+  border-color: orange;
+  margin-bottom: 10px;
+}
+
+.elementbutton:hover {
+  background-color: rgb(228, 149, 2);
+}
+
+.showMoreButton {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 6px;
+  font-size: 16px;
+  width: 30%;
+  background-color: gainsboro;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.showMoreButton:hover {
+  scale: 1.1;
+}
